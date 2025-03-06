@@ -1,0 +1,22 @@
+{
+  "name": "oauth-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World program using Palantir OAuth",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "start:prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "@osdk/client": "^2.1.0",
+    "@osdk/oauth": "^1.1.0",
+    "@personal-site/sdk": "^0.1.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}
